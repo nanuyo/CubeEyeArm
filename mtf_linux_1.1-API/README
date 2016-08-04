@@ -1,0 +1,28 @@
+CYBE-EYE for Linux
+-----------------------------------------
+
+Sample program install guide
+1. library install
+#./mtfinstall.sh
+
+2. openGL install package(SimpleViewer, SimpleRecordViewer)
+case. Ubuntu 14.04
+#sudo apt-get update
+#sudo apt-get upgrade
+#sudo apt-get install freeglut3 freeglut3-dev
+
+3. make compile
+#make
+
+Tool program guide
+- Pre-requisite library : qt5-lib(CUBE-EYE GUI application).
+
+- library path command
+#./mtfinstall.sh
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{PATH : mtf_linux_1.0/lib}
+#./CUBE-EYE
+
+
+
+
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/root/mtf_arm_1.1-API/lib-none-linux-gnueabi
